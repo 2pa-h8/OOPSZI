@@ -1,0 +1,3 @@
+D:\Учеба\ООПЗИС\GitHub\OOPSZI\lab1\task8\task8\Debug\task8.pdb
+D:\Учеба\ООПЗИС\GitHub\OOPSZI\lab1\task8\task8\task8\Debug\task8.pdb
+D:\Учеба\ООПЗИС\GitHub\OOPSZI\lab1\task8\task8_main\Debug\task8.pdb
