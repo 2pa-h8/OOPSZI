@@ -2,7 +2,7 @@
 using namespace std;
 
 bool IsInArea(double x, double y) {
-	if (x * x + y * y < 1) return true;
+	if (x * x + y * y <= 1) return true;
 	else if ((x >= -1) && (x <= 1) && (y <= 1) && (y >= 0)) return true;
 	else return false;
 }
@@ -10,12 +10,12 @@ bool IsInArea(double x, double y) {
 void main(double x, double y) {
 	bool result;
 	setlocale(LC_ALL, "RUS");
-	cout << "Ââåäèòå x:";
+	cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ x:";
 	cin >> x;
-	cout << "Ââåäèòå y:";
+	cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ y:";
 	cin >> y;
 	result = IsInArea(x, y);
-	if (result == true) cout << "Òî÷êà íàõîäèòñÿ â çàêðàøåííîé îáëàñòè\n";
-	else cout << "Òî÷êà ÍÅ íàõîäèòñÿ â çàêðàøåííîé îáëàñòè\n";
+	if (result == true) cout << "Ã’Ã®Ã·ÃªÃ  Ã­Ã ÃµÃ®Ã¤Ã¨Ã²Ã±Ã¿ Ã¢ Ã§Ã ÃªÃ°Ã Ã¸Ã¥Ã­Ã­Ã®Ã© Ã®Ã¡Ã«Ã Ã±Ã²Ã¨\n";
+	else cout << "Ã’Ã®Ã·ÃªÃ  ÃÃ… Ã­Ã ÃµÃ®Ã¤Ã¨Ã²Ã±Ã¿ Ã¢ Ã§Ã ÃªÃ°Ã Ã¸Ã¥Ã­Ã­Ã®Ã© Ã®Ã¡Ã«Ã Ã±Ã²Ã¨\n";
 	system("pause");
 }
