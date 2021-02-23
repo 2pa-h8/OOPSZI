@@ -14,14 +14,14 @@ char func(char key) {
         return 2;
         break;
     default:
-        cout << "Неверный ввод\n";
+        cout << "ГЌГҐГўГҐГ°Г­Г»Г© ГўГўГ®Г¤\n";
         return key;
         break;
     }
 }
 
 bool IsInArea(double x, double y) {
-    if (x * x + y * y < 1) return true;
+    if (x * x + y * y <= 1) return true;
     else if ((x >= -1) && (x <= 1) && (y <= 1) && (y >= 0)) return true;
     else return false;
 }
@@ -33,22 +33,22 @@ double f(double x) {
 
 void main() {
     setlocale(LC_ALL, "RUS");
-    cout << "Выберите номер задания:\n1. Задание 1\n2. Задание 2" << endl;
+    cout << "Г‚Г»ГЎГҐГ°ГЁГІГҐ Г­Г®Г¬ГҐГ° Г§Г Г¤Г Г­ГЁГї:\n1. Г‡Г Г¤Г Г­ГЁГҐ 1\n2. Г‡Г Г¤Г Г­ГЁГҐ 2" << endl;
     cin >> key;
     task = func(key);
     if (task == 1) {
-        printf("Задание 1\n");
+        printf("Г‡Г Г¤Г Г­ГЁГҐ 1\n");
         bool IsInArea(double x, double y);
-        cout << "Введите x:";
+        cout << "Г‚ГўГҐГ¤ГЁГІГҐ x:";
         cin >> x;
-        cout << "Введите y:";
+        cout << "Г‚ГўГҐГ¤ГЁГІГҐ y:";
         cin >> y;
         result = IsInArea(x, y);
-        if (result == true) cout << "Точка находится в закрашенной области\n";
-        else cout << "Точка НЕ находится в закрашенной области\n";
+        if (result == true) cout << "Г’Г®Г·ГЄГ  Г­Г ГµГ®Г¤ГЁГІГ±Гї Гў Г§Г ГЄГ°Г ГёГҐГ­Г­Г®Г© Г®ГЎГ«Г Г±ГІГЁ\n";
+        else cout << "Г’Г®Г·ГЄГ  ГЌГ… Г­Г ГµГ®Г¤ГЁГІГ±Гї Гў Г§Г ГЄГ°Г ГёГҐГ­Г­Г®Г© Г®ГЎГ«Г Г±ГІГЁ\n";
     }
     else if (task == 2) {
-        printf("Задание 2\n");
+        printf("Г‡Г Г¤Г Г­ГЁГҐ 2\n");
         double f(double x);
         cout << "x=";
         cin >> x;
