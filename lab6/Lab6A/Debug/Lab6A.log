@@ -1,0 +1,7 @@
+﻿  main.cpp
+D:\Учеба\ООПСЗИ\GitHub\OOPSZI\Lab6A\Lab6A\Deque1.h(171,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учеба\ООПСЗИ\GitHub\OOPSZI\Lab6A\Lab6A\main.cpp(30): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::ostream &operator <<<int>(std::ostream &,const Deque1<int> &)"
+D:\Учеба\ООПСЗИ\GitHub\OOPSZI\Lab6A\Lab6A\Deque2.h(152,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учеба\ООПСЗИ\GitHub\OOPSZI\Lab6A\Lab6A\main.cpp(45): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::ostream &operator <<<int>(std::ostream &,const Deque2<int> &)"
+D:\Учеба\ООПСЗИ\GitHub\OOPSZI\Lab6A\Lab6A\List2.h(299): warning C4715: List2<int>::sel_el: значение возвращается не при всех путях выполнения
+  Lab6A.vcxproj -> D:\Учеба\ООПСЗИ\GitHub\OOPSZI\Lab6A\Debug\Lab6A.exe
